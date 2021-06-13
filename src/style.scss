@@ -1,0 +1,16 @@
+$h1: 48px;
+$h2: 24px;
+$primary: red;
+$secondary: blue;
+
+.hello {
+  color: $primary;
+  font-size: $h2;
+}
+
+@media print, screen and (min-width: 786px) {
+  .hello {
+    color: $secondary;
+    font-size: $h1;
+  }
+}
